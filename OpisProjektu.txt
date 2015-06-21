@@ -1,0 +1,13 @@
+Cel projektu:
+	Aplikacja ma realizowaæ odwracanie stringa w sposób rozproszony: klient przesy³a string do serwera,
+	serwer wykonuje ¿¹dan¹ operacjê i odsy³a odpowiedŸ do klienta.
+	Funkcjonalnoœæ uda³o siê zrealizowaæ.
+
+Cechy rozproszone programu:
+	Dzielenie zasobów - serwer udostêpnia swoj¹ moc obliczeniow¹ klientowi do wykonania operacji
+	Otwartoœæ - mo¿na rozszerzaæ kontrakt INew i jego implementacjê NewService o nowe us³ugi jak równie¿
+		dodawaæ nowe biblioteki z kontraktami do aplikacji hosta. Istnieje mo¿liwoœæ rozszerzenia klienta
+		o obs³ugê innych hostów.
+	Wspó³bie¿noœæ - zarówno klient jak i serwer pracuj¹ jednoczeœnie.
+	Przezroczystoœæ - z punktu widzenia u¿ytkownika aplikacji-klienta istnieje mo¿liwoœæ korzystania z
+		udostêpnianych funkcjonalnoœci tak, jakby by³y wykonywane lokalnie.

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5027c428-83ef-424b-955e-4dac88994884" name="UMLUseCaseDiagram1" linkedPackageId="9bdb019a-7dff-4594-9a23-a737ba87e3a6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="dfdff0d2-f159-4230-ad13-76d64eadb65f">
+      <profileInstance Id="ea7b08b2-256b-4dd2-a8f1-80a5eee0a8bf" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="cc33303d-baca-40e9-8bf1-949924936a9f">
+      <profileInstance Id="fcd9f167-afa4-42e4-881f-9a26a9f2f065" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="240e75c3-97d1-48e6-8fbc-347af9403a81" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a32bb4c8-24c8-48cb-aaf5-d5026000d080" />
+        <suppliersInternal>
+          <dependency Id="ce3a64ad-d91d-4a64-82bd-f6273a7c6f0d">
+            <useCaseMoniker Id="d0709043-d9f6-4663-b7c8-3809fb64dc72" LastKnownName="Odwrócenie stringa" />
+            <elementDefinition Id="5b4db8ba-3af9-4211-afa3-b8dd4efeab9a" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d0709043-d9f6-4663-b7c8-3809fb64dc72" name="Odwrócenie stringa" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="469a047e-293e-484f-928d-6ae46c949c7f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="9bdb019a-7dff-4594-9a23-a737ba87e3a6" name="ModelingProject1">
+    <elementDefinition Id="6af21d06-5b2b-45f6-82e7-24d027e6ad40" />
+  </package>
+</useCaseModelRoot>
